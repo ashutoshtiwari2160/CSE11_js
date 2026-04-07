@@ -1,20 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My First Web Page</title>
+    <title>Web Page</title>
+    <Style>
+     .output{
+        color:brown ;
+     }
+     .onclick{
+       height: 20px;
+       width:40px;
+    color:blueviolet ;
+     }
+    .show{
+        height:25px;
+        width:50px;
+        border :none ;
+        color:darkgreen ;
+    }
+   .onClick-hover{
+    color:white;
+    background-color:blue;
+   }
+
+    </Style>
 </head>
 <body>
 
-    <h1>Hello 👋</h1>
+    <h1>Hello </h1>
     <p>Click the button below:</p>
 
-    <button onclick="showMessage()">Click Me</button>
+    <button onclick="show()">Click Me</button>
 
     <p id="output"></p>
 
     <script>
-        function showMessage() {
-            document.getElementById("output").innerHTML = "You clicked the button! 🎉";
+        function show() {
+            document.getElementById("output").innerHTML = "Hello Everyone";
         }
     </script>
 
